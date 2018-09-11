@@ -6,7 +6,7 @@ import wrappers.OpentapsWrappers;
 public class LoginPage extends OpentapsWrappers{
 	
 	public LoginPage(){
-		if(!verifyTitle("Opentaps Open Source ERP + CRM")){
+		if(!verifyTitle("Leaftaps - TestLeaf Automation Platform")){
 			Reporter.reportStep("This is NOT login page", "FAIL");
 		}
 	}

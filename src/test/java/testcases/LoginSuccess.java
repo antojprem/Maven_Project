@@ -19,7 +19,10 @@ public void startTestCase(){
 	
 @Test(dataProvider="fetchData")	
 public void loginForSuccess(String username,String password){
-	new LoginPage().enterUserName(username).enterPassword(password).clickLogin();
+	new LoginPage()
+	.enterUserName(username)
+	.enterPassword(password)
+	.clickLogin();
 }
 
 }

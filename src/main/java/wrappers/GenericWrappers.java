@@ -50,7 +50,7 @@ public GenericWrappers() {
 		dc.setBrowserName(browser);
 		dc.setPlatform(Platform.WINDOWS);
 		if (browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:/AntoPrem/BenefitServe/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
